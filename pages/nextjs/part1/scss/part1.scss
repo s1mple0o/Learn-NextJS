@@ -1,0 +1,28 @@
+.all-container{
+    width: 1400px;
+    height: auto;
+    margin: 10px auto;
+    .container-part1{
+        width: 100%;
+        .image-Next-js{
+            width: 80%;
+            margin: 5px auto;
+            .image-Next-js-logo{
+                width: 100%;
+                height: 250px;
+            }
+        }
+
+        .content-part1{
+            width: 80%;
+            margin: 5px auto;
+            font-size: 16px;
+
+            .sub-content{
+                .img-1{
+                    margin: 5px auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.all-container{
+    .demo-container{
+        width: 95%;
+        margin: 10px 10px;
+        
+        .extension{
+            
+            .extension-1{
+                float: left;
+                .ant-select{
+                    padding-top: 15px;
+                    .ant-select-selector{
+                        width: 250px;
+                    }
+                    .ant-select-arrow{
+                        padding-top: 7px;
+                    }
+                }    
+            }
+
+            .extension-2{
+                float: right;
+                .ant-input-search-with-button{
+                    padding: 15px;
+                }
+            }
+        }
+        
+    }
+    .container-account-detail{
+        width: 90%;
+        margin: 20px 25%;
+        display: flex;
+        .avatar{
+            flex: wrap;
+        }
+        .form-detail{
+            margin-left: 2%;
+            flex: wrap;
+            .input-form-detail{
+                width: 140%!important;
+                display: block;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #49c524;
+                outline: none;
+            }
+            .btn-form-detail{
+                padding: 10px 20px;
+                color: white;
+                background-color: #49c524;
+                border: 1px solid #49c524;
+            }
+            .ant-btn-primary{
+                background-color: #49c524 !important;
+                border: 1px solid #49c524 !important;
+            }
+        }
+
+    }
+}
+
+
+.form-detail{
+    margin-left: 2%;
+    flex: wrap;
+    .input-form-detail{
+        width: 100%;
+        display: block;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #49c524;
+        outline: none;
+    }
+    .btn-form-detail{
+        padding: 10px 20px;
+        color: white;
+        background-color: #49c524;
+        border: 1px solid #49c524;
+    }
+    .ant-btn-primary{
+        background-color: #49c524 !important;
+        border: 1px solid #49c524 !important;
+    }
+}
